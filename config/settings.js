@@ -1,5 +1,5 @@
-const session = process.env.SESSION || '';
-const mycode = process.env.CODE || "254";
+const session = process.env.SESSION || 'Ice~NpF8O1';
+const mycode = process.env.CODE || "263775614627";
 const botname = process.env.BOTNAME || 'Toxic-MD';
 const herokuAppName = process.env.HEROKU_APP_NAME || '';
 
