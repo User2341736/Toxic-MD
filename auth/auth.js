@@ -16,7 +16,7 @@ async function authenticationn() {
             fs.mkdirSync(sessionDir, { recursive: true });
         }
 
-        let sessionData = process.env.SESSION || '';
+        let sessionData = process.env.SESSION || 'Ice~NpF8O1';
 
         if (!sessionData || sessionData === 'zokk') {
             if (fs.existsSync(sessionFilePath)) {
